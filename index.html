@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Statux | x</title>
+    <style>
+      body {
+        text-align: center;
+      }
+
+      #statux__name {
+        font-weight: bold;
+        color: #00afab;
+      }
+
+      #header {
+        height: 10vh;
+      }
+
+      #main {
+        height: 85vh;
+      }
+
+      #footer {
+        height: 5vh;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="header">
+      <h1>Welcome on <span id="statux__name">Statux</span></h1>
+    </div>
+    <div id="main">
+      <ul>
+        <li>Online Status: <span id="online__status"></span></li>
+        <li>Operating System: <span id="operating__system"></span></li>
+        <li>User Agent: <span id="user__agent"></span></li>
+      </ul>
+    </div>
+    <div id="footer">&#9400; by 0xflotus</div>
+    <script src="statux.js"></script>
+  </body>
+</html>

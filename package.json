@@ -1,0 +1,14 @@
+{
+  "name": "statux",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "0xflotus",
+  "license": "MIT",
+  "scripts": {
+    "lint:style": "stylelint '*.html'"
+  },
+  "devDependencies": {
+    "stylelint": "^9.9.0",
+    "stylelint-config-standard": "^18.2.0"
+  }
+}
