@@ -1,0 +1,2 @@
+# statux
+Status Page
